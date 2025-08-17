@@ -1,0 +1,19 @@
+{
+  "name": "automacao_web-academia_accenture_2025",
+  "version": "1.0.0",
+  "description": "Projeto feito para o desafio cypress da academia accenture agosto de 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Cavalcante",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step-definitions/"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
